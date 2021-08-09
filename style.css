@@ -1,0 +1,440 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Raleway';
+    background-color:#e9c790;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+#head {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height:720px;
+}
+.menu {
+    display:flex;
+    justify-content: center;
+    margin-left:16%;
+}
+.menu a {
+    padding:1.6% 8%;
+    font-size:26px;
+    color:white;
+    font-family: 'Raleway';
+}
+.menu img {
+    padding:1% 8%;
+    height:6%;
+}
+.head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+.nice {
+    font-size:70px;
+    color:rgb(189, 125, 6);
+    font-family: 'Raleway';
+}
+.nice2 {
+    margin-top: -3%;
+    color: rgb(206 178 117);
+    font-size: 70px;
+    font-family: 'Raleway';
+}
+.head p {
+    font-size: 34px;
+    margin-top:-2%;
+    color:white;
+    font-family: 'Raleway';
+    opacity:0.8;
+}
+.but {
+    border:1px orange;
+    border-radius: 20px;
+    padding:20px;
+    
+}
+.but a {
+    background: linear-gradient(to right, #d3975f, #945e08);
+    border-radius: 20px;
+    border: 0px orange ;
+    padding:16px 80px;
+    color:white;
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-decoration: none;
+}
+.benefits {
+    background-color:#e9c790;
+}
+.benefits h2 {
+    text-align: center;
+    color:#805208;
+    font-family:'Raleway';
+    padding-top:40px;
+    font-size: 54px;
+}
+.benefits img {
+    width:36%;
+}
+.benefits p {
+    padding-left:50%;
+    margin-top:-23%;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.main {
+    background-color:#e9c790;
+    margin-top: 12%;
+}
+.container {
+    display: flex;
+}
+.container2 {
+    display: flex;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h2 {
+    text-align: center;
+    font-size:54px;
+    padding:4%;
+    color:#805208;
+    text-align: center;
+}
+.item img {
+    border-radius: 250px;
+    width:60%;
+    border: 3px solid #805208;
+    padding:20px; 
+}
+.item h3 {
+    color:brown;
+    font-size:30px;
+    font-family: 'Raleway';
+}
+.item a {
+    background-color:white;
+    border:1px #805208;
+    border-color:#805208;
+    border-radius:20px;
+    padding:10px 50px;
+    color:rgb(116, 110, 110);
+}
+.item p {
+    font-family: 'Raleway';
+    font-size:22px;
+}
+.discount {
+    background-color:#e9c790;
+    margin-top: -5%;
+    color:#805208;
+    background-size:cover;
+}
+.discount h2 {
+    text-align: center;
+    font-size:54px;
+    padding:4%;
+}
+.dis {
+    display: flex;
+    justify-content: space-evenly;
+}
+.dis img {
+    width: 30%;
+    display: flex;
+}
+.dis p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    font-family: 'Raleway';
+    font-weight: 900;
+}
+.discount a {
+    text-align: center;
+    display: flex;
+    font-family: 'Raleway';
+    font-weight: 700;
+    border:0px orange;
+    border-radius:20px;
+    background:linear-gradient(to right, #d18136, #dbbf91);
+    width:24%;
+    padding:12px 0px;
+    padding-left:0%;
+    justify-content: center;
+    margin-left:60%;
+    margin-top:-10%;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color:black;
+}
+.about {
+    color:#805208;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size:cover;
+    margin-top: 5%;
+}
+.about h2 {
+    text-align: center;
+    font-size:54px;
+    padding:4%;
+}
+.about iframe {
+    width: 80%;
+}
+
+.pagefooter {
+    display: flex;
+    margin-top:8%;
+    justify-content:space-evenly;
+    align-items: center;
+    padding:35px 0px;
+    color:#000000;
+    background-color: rgb(196, 235, 178);
+}
+.socialbutton {
+    list-style: none;
+}
+.hashtag, .footersocial, .copywrite {
+    padding:0;
+    margin:0;
+}
+.hashtag {
+    font-size:21px;
+    line-height: 26px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+p.foot {
+    font-size: 30px;
+}
+.hashtag img {
+    margin-left: 44%;
+}
+.copywrite img {
+    margin-left: 44%;
+}
+.footersocial li {
+    display: inline-block;
+    padding:5px;
+}
+@media (max-width:1010px ) {
+    .hashtag img {
+        margin-left: 20%;
+    }
+    .copywrite img {
+        margin-left: 20%;
+    }
+    .menu a {
+        padding: 1.6% 7%;
+    }
+}
+
+@media (max-width:912px ) {
+    .hashtag img {
+        margin-left: 50%;
+        width: 64%;
+    }
+    .copywrite img {
+        margin-left: 50%;
+        width: 64%;
+    }
+    p.foot {
+        font-size: 20px;
+    }
+    .menu a {
+        padding: 1.6% 6%;
+    }
+    .nice {
+        font-size: 60px;
+    }
+    .nice2 {
+        font-size: 60px;
+    }
+    .head p {
+        font-size: 28px;
+    } 
+    #head {
+        height: 560px;
+    }
+    .benefits p {
+        font-size: 22px;
+    }
+    .dis p {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:700px ) {
+    .menu a {
+        padding: 1.6% 4%;
+    }
+    .benefits p {
+        font-size: 18px;
+    }
+    .dis p {
+        font-size: 20px;
+    }
+    .hashtag img {
+        margin-left: 34%;
+        width: 56%;
+    }
+    .copywrite img {
+        margin-left: 34%;
+        width: 56%;
+    }
+    .socialbutton img {
+        width: 80%;
+    }
+    p.foot {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:640px ) {
+    .menu {
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .menu img {
+        margin-left: 72%;
+        margin-top: -25%;
+    }
+    .menu a:hover {
+        background-color:#e9c790;
+    }
+    .nice {
+        margin-top: 14%;
+        font-size: 50px;
+    }
+    .nice2 {
+        font-size: 50px;
+    }
+    .head p {
+        font-size:22px ;
+    }
+    .benefits img {
+        width:50%;
+        display: flex;
+        margin-left: 24%;
+    }
+    .benefits p {
+        text-align: center;
+        margin-top:8%;
+        padding: 0%;
+        font-size: 20px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .dis {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .dis img {
+        width:60%;
+    }
+    .dis p {
+        font-size: 30px;
+    }
+    .discount a {
+        margin-left: 35%;
+        margin-top:-2%;
+        text-align: center;
+        padding:12px 20px;
+    }
+    .pagefooter {
+        display: flex;
+        flex-direction: column;
+    }
+    .hashtag img {
+        margin-left: 18%;
+    }
+    .copywrite img {
+        margin-left: 18%;
+        margin-top: 30%;
+    }
+    .benefits h2 {
+        font-size: 40px;
+    }
+    #head {
+        width:100%;
+    }
+}
+@media (max-width:530px ) {
+    .menu img {
+        margin-left: 72%;
+        margin-top: -27%;
+    }
+    .about iframe {
+        height:160%;
+        width:80%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:480px ) {
+    .menu img {
+        margin-left: 64%;
+        margin-top: -31%;
+    }
+    .nice {
+        margin-top: 18%;
+        font-size: 42px;
+    }
+    .nice2 {
+        font-size: 44px;
+    }
+    .head p {
+        font-size: 14px;
+    }
+    .dis p {
+        font-size: 22px;
+    }
+}
+@media (max-width:400px ) {
+    .discount a {
+        margin-left: 25%;
+        margin-top: -2%;
+        text-align: center;
+        padding: 12px 37px;
+    }
+    .but a {
+        font-size: 18px;
+        padding:12px 60px;
+    }
+}
+@media (max-width:300px) {
+    .but a {
+        padding:12px 40px;
+    }
+    .menu img {
+        margin-top: -40%;
+    }
+    .nice {
+        margin-top: 30%;
+    }
+}
